@@ -9,11 +9,13 @@
 _ไฟล์นี้ generate อัตโนมัติจาก metadata ของบทความ — เนื้อหาเต็มอ่านได้ที่ลิงก์ต้นทางเท่านั้น_
 
 
-**73 บทความ** · อัปเดตล่าสุด 2026-07-07
+**75 บทความ** · อัปเดตล่าสุด 2026-07-08
 
 
 ## 2026
 
+- `2026-07-08` [MAS สิงคโปร์คุมความเสี่ยง AI Agent ในแบงก์: ให้เวลาปรับตัว 12 เดือน และสิ่งที่คนทำ Model Risk ไทยต้องเตรียมปี 2026](https://boomleverage.com/articles/mas-singapore-ai-agent-risk-guidelines-2026) — MAS เตรียมออกแนวปฏิบัติบริหารความเสี่ยง AI ที่ครอบคลุม generative AI และ AI agent อิสระเป็นชุดแรก ๆ ของเอเชีย ให้เวลาปรับตัว 12 เดือน — คนทำ model risk แบงก์ไทยควรอ่านก่อน ธปท. ขยับตาม
+- `2026-07-08` [ทดลองก่อนแก้: โปรโตคอล 5 ส่วนที่ทำให้ปรับจูน AI Agent โดยไม่ต้องเดา (และไม่เผาเงิน)](https://boomleverage.com/articles/claude-code-experiment-before-change-kaizen) — วิธีปรับจูนระบบ AI agent แบบคนทำ model validation — เปลี่ยน infra ต่อเมื่อผ่านการทดลองที่ทำซ้ำได้ ไม่ใช่ตามความรู้สึก พร้อมเทมเพลต protocol.md ที่ก็อปไปใช้ได้เลย
 - `2026-07-07` [ธนาคารกลางอินเดียออกร่างกรอบ Model Risk Management 2026 คุมโมเดล AI ในแบงก์ — ปิดรับความเห็น 24 กรกฎาคม](https://boomleverage.com/articles/rbi-ai-model-risk-framework-2026) — RBI ร่างกฎ MRM ที่เขียนถึง AI/ML ตรง ๆ ทั้ง kill switch และความรับผิดที่โอนให้ vendor ไม่ได้ ขณะที่ US OCC ยังกัน gen AI ออกนอกขอบเขต — มุมคนทำ model risk
 - `2026-07-07` [Local vs API: ออกแบบ Router 3 โซน ให้ AI Agent ประหยัดค่าโทเคนในงาน Data](https://boomleverage.com/articles/claude-code-local-vs-api-routing-economics) — ทำไมการส่งทุกงานเข้าโมเดลแพงสุดถึงเผาเงินฟรี ๆ — กฎ routing 3 โซน (sensitive/ขนาดเล็ก/ขนาดใหญ่) พร้อมฟังก์ชัน route() ที่ก็อปไปใช้ได้เลย จากคนทำ model risk
 - `2026-07-06` [ระบบคิวงานอัตโนมัติ: ให้ Claude Code ทำงานเองทุก 90 นาที ด้วย CSV ไฟล์เดียว](https://boomleverage.com/articles/claude-code-autonomous-task-queue-design) — วิธีออกแบบคิวงานให้ Claude Code รันเองเป็นชุด ๆ โดยไม่ต้องนั่งเฝ้า — โครงสร้าง prompt แบบ OBJ/CONTEXT/RULE/DONE + CSV + ตัวรันวนลูป ที่ผมใช้ผลิตคอนเทนต์บนเว็บนี้จริง
