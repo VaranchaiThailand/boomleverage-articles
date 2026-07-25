@@ -9,11 +9,15 @@
 _ไฟล์นี้ generate อัตโนมัติจาก metadata ของบทความ — เนื้อหาเต็มอ่านได้ที่ลิงก์ต้นทางเท่านั้น_
 
 
-**101 บทความ** · อัปเดตล่าสุด 2026-07-21
+**105 บทความ** · อัปเดตล่าสุด 2026-07-26
 
 
 ## 2026
 
+- `2026-07-26` [กัน AI Agent ลบไฟล์พลาด: Hook ใน Claude Code ที่เปลี่ยน rm เป็นถังกู้คืน (2026)](https://boomleverage.com/articles/claude-code-reversible-delete-hook) — AI agent ที่รันเองลบไฟล์จริงได้ — ผมเลยวางกฎว่าห้าม rm แต่ให้ย้ายเข้า .archive/ แทน แล้วบังคับด้วย PreToolUse hook ที่ก็อปไปใช้ได้เลย มุมคนทำ model risk เรื่องกู้คืนได้
+- `2026-07-26` [BIS เตือน AI boom ระดับ 1 ล้านล้านดอลลาร์ อาจเป็นชนวนวิกฤตการเงินรอบหน้า — รายงานประจำปี 2026](https://boomleverage.com/articles/bis-ai-capex-financial-stability-risk-2026) — รายงานประจำปี BIS 2026 ชี้การลงทุน AI ที่พึ่งพาหนี้และการเงินแบบวนซ้ำ (circular financing) เป็นความเสี่ยงต่อเสถียรภาพการเงินโลก — มุมที่คนทำ model risk/data ควรอ่าน
+- `2026-07-25` [อัปเดตเว็บ: เปิดให้ทุกคนใช้ Boom Leverage Terminal แพ็ก Pro ฟรีถึง 31 ส.ค. 2026](https://boomleverage.com/articles/terminal-pro-free-promo-until-31-aug-2026) — ข่าวอัปเดตจาก Boom Leverage — ช่วงเปิดตัวนี้เปิดให้ทุกคนที่ล็อกอินใช้ Terminal แพ็ก Pro ฟรีถึง 31 ส.ค. 2026 (พักการเก็บเงินชั่วคราว ไม่ต้องผูกบัตร) พร้อมสรุปของใหม่ล่าสุด: ผลค้นแบบมีโครงสร้าง V2 และการเก็บ MD&A รายไตรมาส
+- `2026-07-25` [ค้น MD&A / 56-1 ทั้งตลาดหุ้นไทยด้วยความหมาย: รู้จัก Boom Leverage Terminal — และช่วงนี้ลองแพ็ก Pro ฟรี](https://boomleverage.com/articles/boomleverage-terminal-pro-free-2026) — Boom Leverage Terminal คือเครื่องมือค้นคำชี้แจงผู้บริหาร (MD&A) และแบบ 56-1 ของบริษัทจดทะเบียนทั้งตลาดด้วยความหมาย ไม่ใช่คีย์เวิร์ด พร้อมยกต้นฉบับ + ลิงก์ตรวจสอบเอง สร้างโดยคนทำ model risk ในแบงก์ไทย ช่วงเปิดตัวนี้เปิดให้ทุกคนใช้แพ็ก Pro ฟรีถึง 31 ส.ค. 2026 ไม่ต้องผูกบัตร
 - `2026-07-21` [เส้นตาย high-risk ของ EU AI Act เลื่อนไป 2 ธันวาคม 2027 แต่กฎความโปร่งใส (Article 50) ยังบังคับ 2 สิงหาคม 2026](https://boomleverage.com/articles/eu-ai-act-transparency-deadline-august-2026) — Digital Omnibus เลื่อนเส้นตาย high-risk AI ไป ธ.ค. 2027 แต่กฎความโปร่งใสตาม Article 50 — แจ้งผู้ใช้ว่ากำลังคุยกับ AI และติดป้าย deepfake — ยังเริ่ม 2 ส.ค. 2026 มุมคนทำ risk
 - `2026-07-21` [ตั้งด่านอนุมัติให้ Claude Code รันเองได้อย่างปลอดภัย: permission 3 ชั้น + PreToolUse hook สำหรับงานการเงิน](https://boomleverage.com/articles/claude-code-human-in-the-loop-approval-gate) — ให้ AI agent รันงานเองได้ แต่บล็อก git push, rm -rf และการส่งข้อมูลออกเน็ตอัตโนมัติ ด้วย permission allow/ask/deny + PreToolUse hook ใน Claude Code — เทมเพลตก็อปไปใช้ได้ มุมคนทำ data/risk
 - `2026-07-20` [จาก 137,354 ชิ้นข้อความ สู่ข้อค้นพบที่กดดูต้นฉบับได้: บันทึกการรื้อเครื่องมือค้น MD&A จาก V1 เป็น V2](https://boomleverage.com/articles/mdna-v1-to-v2-structured-findings) — ผมกำลังรื้อเครื่องมือค้น MD&A ทั้งตลาดจากรุ่นแรกเป็นรุ่นสอง — เปลี่ยนหน่วยของคำตอบจาก 'ชิ้นข้อความ' เป็น 'ข้อค้นพบมีโครงสร้าง' บันทึกนี้เล่าตรง ๆ ว่าทำไม และตอนนี้ถึงไหนแล้ว
