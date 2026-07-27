@@ -9,11 +9,13 @@
 _ไฟล์นี้ generate อัตโนมัติจาก metadata ของบทความ — เนื้อหาเต็มอ่านได้ที่ลิงก์ต้นทางเท่านั้น_
 
 
-**105 บทความ** · อัปเดตล่าสุด 2026-07-26
+**107 บทความ** · อัปเดตล่าสุด 2026-07-27
 
 
 ## 2026
 
+- `2026-07-27` [ต่อยอดเครื่องมือค้น MD&A รุ่น 2 กับ ChatGPT และ Claude: workflow 3 ขั้นให้รายงานตรวจย้อนกลับได้ทุกบรรทัด](https://boomleverage.com/articles/mdna-v2-traceable-report-chatgpt-claude) — นักวิเคราะห์เอาผลค้นแบบมีที่มาจากเครื่องมือรุ่น 2 ไปให้ ChatGPT หรือ Claude ช่วยร่างรายงานได้ โดยทุกประโยคยังชี้กลับไฟล์ 56-1 ต้นฉบับได้ — พร้อม prompt ที่ก็อปไปใช้ได้เลย
+- `2026-07-27` [FINRA ปี 2026 ขึ้นบัญชี AI hallucination เป็นความเสี่ยงมีชื่อ: ทำไม 'โชว์ที่มาให้ตรวจย้อนได้' กำลังเป็นเส้นมาตรฐานของ AI การเงิน](https://boomleverage.com/articles/ai-hallucination-audit-trail-finance-2026) — รายงานกำกับดูแลปี 2026 ของ FINRA นับ hallucination เป็นความเสี่ยงเดี่ยว ๆ ขณะที่วงการ RegTech ดันแนวคิด 'AI ต้องโชว์ที่มา' — สัญญาณสำหรับคนทำ data/risk การเงิน
 - `2026-07-26` [กัน AI Agent ลบไฟล์พลาด: Hook ใน Claude Code ที่เปลี่ยน rm เป็นถังกู้คืน (2026)](https://boomleverage.com/articles/claude-code-reversible-delete-hook) — AI agent ที่รันเองลบไฟล์จริงได้ — ผมเลยวางกฎว่าห้าม rm แต่ให้ย้ายเข้า .archive/ แทน แล้วบังคับด้วย PreToolUse hook ที่ก็อปไปใช้ได้เลย มุมคนทำ model risk เรื่องกู้คืนได้
 - `2026-07-26` [BIS เตือน AI boom ระดับ 1 ล้านล้านดอลลาร์ อาจเป็นชนวนวิกฤตการเงินรอบหน้า — รายงานประจำปี 2026](https://boomleverage.com/articles/bis-ai-capex-financial-stability-risk-2026) — รายงานประจำปี BIS 2026 ชี้การลงทุน AI ที่พึ่งพาหนี้และการเงินแบบวนซ้ำ (circular financing) เป็นความเสี่ยงต่อเสถียรภาพการเงินโลก — มุมที่คนทำ model risk/data ควรอ่าน
 - `2026-07-25` [อัปเดตเว็บ: เปิดให้ทุกคนใช้ Boom Leverage Terminal แพ็ก Pro ฟรีถึง 31 ส.ค. 2026](https://boomleverage.com/articles/terminal-pro-free-promo-until-31-aug-2026) — ข่าวอัปเดตจาก Boom Leverage — ช่วงเปิดตัวนี้เปิดให้ทุกคนที่ล็อกอินใช้ Terminal แพ็ก Pro ฟรีถึง 31 ส.ค. 2026 (พักการเก็บเงินชั่วคราว ไม่ต้องผูกบัตร) พร้อมสรุปของใหม่ล่าสุด: ผลค้นแบบมีโครงสร้าง V2 และการเก็บ MD&A รายไตรมาส
